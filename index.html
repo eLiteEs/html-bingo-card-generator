@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://rsms.me/">
+        <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+        <link rel="stylesheet" href="style.css">
+        <title>Bingo Card Generator</title>
+    </head>
+    <body>
+        <h1>Bingo Card Generator</h1>
+        <label for="quantityOfCards">Quantity of cards:</label>
+        <input type="number" id="quantityOfCards" value="10"><br>
+        <label for="minimunNumber">Minimum number:</label>
+        <input type="number" id="minimunNumber" value="1"><br>
+        <label for="maximunNumber">Maximum number:</label>
+        <input type="number" id="maximunNumber" value="100"><br>
+        <label for="colsNum">Number of columns:</label>
+        <input type="number" id="colsNum" value="5"><br>
+        <label for="rowsNum">Number of rows:</label>
+        <input type="number" id="rowsNum" value="5"><br>
+        
+        <button id="generateCards">Generate Cards</button>
+        <button id="printCards">Print Cards</button>
+    
+        <div id="cardContainer" class="print-section"></div>
+    
+        <script src="index.js"></script>
+    </body>
+</html>
